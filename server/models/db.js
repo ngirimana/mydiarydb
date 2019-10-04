@@ -9,10 +9,6 @@ class Model {
     this.pool = new Pool({
       connectionString: process.env.DATABASE_URL,
     });
-
-    // this.pool.on('error', (err, client) => {
-    //   throw err;
-    // });
   }
 
 
