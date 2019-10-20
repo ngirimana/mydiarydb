@@ -16,7 +16,7 @@ app.use('/api/v2', entryRoute);
 app.use('/', (req, res) => {
   res.status(400).send({
     status: 400,
-    error: 'Incorrect route',
+    error: 'Welcome to my diary',
   });
 });
 
